@@ -30,12 +30,17 @@ Example: **schema.xml**:
 ```
 
 Settings are in `schema_settings` and the main options for the entire file, namely: 
-`read_in_memory` :  if the whole file should be read in memory (for example to process it or sort it) 
-                    or if the frames should be read one by one
+
+`read_in_memory` :  if the whole file should be read in memory (for example to process it or sort it) or if the frames should be read one by one
+                    
 `sort_by` :  only if `read_in_memory = true`, then you can sort by a field name (NOTE: the field must be present or the sort will fail)
+
 `frame_size` :  fixed frame size. File size should be a multiple of this number, or it will fail
+
 `endian` :  define endianness, either `"little"` or `"big"`
+
 `include_frame_index` :  should the frame number be included in the CSV export
+
 
 An `offset` in subsystem indicates where the entire subsystem data begins, and then `offset` in each field represents where the frame is located from the start of its subsystem
 
