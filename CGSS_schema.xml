@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema version="1.0">
+  <schema_settings read_in_memory="true" sort_by="CDH.OBT" frame_size="4000" endian="big" include_frame_index="false"/>
+  <subsystems>
+    <!--- PCS Subsystem -->
+    <subsystem name="PCS" offset="1604">
+      <fields>
+        <field name="vBatAverage" type="u16" offset="750">
+          <calibration expr="raw * 0.01873128 + (-38.682956)" units="V" round="5"/>
+        </field>
+      </fields>
+    </subsystem>
+    <!--- CDH Subsystem -->
+    <subsystem name="CDH" offset="8">
+      <fields>
+        <field name="OBT" type="u32" offset="92">
+          <calibration func="obt_seconds_to_datetime"/>
+        </field>
+      </fields>
+    </subsystem>
+  </subsystems>
+</schema>
