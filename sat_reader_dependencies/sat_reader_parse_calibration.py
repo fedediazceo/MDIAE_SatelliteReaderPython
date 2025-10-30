@@ -1,4 +1,6 @@
 """
+Author: Federico Jose Diaz
+
 Safe math expression parser and evaluator for calibration expressions.
 - Supports basic arithmetic, math functions and the actual value 'raw'.
 - Uses Python's ast module to parse and validate expressions before evaluation.

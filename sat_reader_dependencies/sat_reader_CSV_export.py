@@ -1,4 +1,6 @@
 """
+Author: Federico Jose Diaz
+
 CSV export helper function.
 
 - Reads a list of dictionaries and writes them to a CSV file.

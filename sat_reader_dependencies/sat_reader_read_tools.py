@@ -1,4 +1,6 @@
 """
+Author: Federico Jose Diaz
+
 Binary data reading and frame decoding tools.
 
 - Functions to read binary data frames according to a schema.

@@ -1,4 +1,6 @@
 """ 
+Author: Federico Jose Diaz
+
 Tool to search for candidate OBT fields in binary frame data.
 
 IT's a bit hardcoded, so don't pay too much attention to it. 

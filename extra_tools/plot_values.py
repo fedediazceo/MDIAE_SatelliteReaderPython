@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Author: Federico Jose Diaz
+
 import argparse
 import csv
 import os

@@ -1,3 +1,4 @@
+# Author: Federico Jose Diaz
 # CGSS_calibration_functions.py
 # Each function receives the raw value and returns a calibrated value.
 

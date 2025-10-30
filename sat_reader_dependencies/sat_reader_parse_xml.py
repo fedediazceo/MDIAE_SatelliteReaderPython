@@ -1,4 +1,6 @@
 """
+Author: Federico Jose Diaz
+
 XML schema parser for SAT Reader.
 Parses an XML file defining the schema into Schema, Subsystems and Field objects.
     

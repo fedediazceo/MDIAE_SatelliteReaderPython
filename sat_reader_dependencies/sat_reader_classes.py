@@ -1,5 +1,6 @@
-
 """
+Author: Federico Jose Diaz
+
 Classes representing the schema and plugin system for the SAT reader.
 
 Includes:

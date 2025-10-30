@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """
+Author: Federico Jose Diaz
+
 Small tool to extract frames from a raw satellite dump file using an XML schema.
 
 Responsibilities
